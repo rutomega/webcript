@@ -1,0 +1,14 @@
+body {
+    background-image: url('https://i.postimg.cc/13c1ZjK0/tugas-projekct.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+header {
+    text-decoration-color: #141212;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    background-color: rgb(100, 92, 73);
+}
