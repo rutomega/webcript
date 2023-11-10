@@ -1,15 +1,11 @@
+
 body {
-    box-sizing: border-box;
-    background-color: #b8a7c5a4 46;
-    background-image: url("bg.jpg");
-    height: 80%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 2000 px;
-  }
-  
-header {
-    text-decoration-color: #141212;
+background-color: #443a3ae5;
+}
+header h1 {
+    -webkit-text-fill-color: rgb(175, 158, 136);
+    box-sizing: content-box;
     text-align: center;
     padding: 20px;
 }
+
