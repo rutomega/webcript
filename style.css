@@ -1,14 +1,15 @@
 body {
-    background-image: url('https://i.postimg.cc/13c1ZjK0/tugas-projekct.jpg');
+    box-sizing: border-box;
+    background-color: #b8a7c5a4 46;
+    background-image: url("bg.jpg");
+    height: 80%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-}
+    background-position: center;
+    background-size: 2000 px;
+  }
+  
 header {
     text-decoration-color: #141212;
     text-align: center;
     padding: 20px;
-}
-body {
-    background-color: rgb(100, 92, 73);
 }
