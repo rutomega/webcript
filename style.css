@@ -1,6 +1,10 @@
 
 body {
-background-color: #443a3ae5;
+    background-color: rgba(12, 9, 6, 0.898);
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 header h1 {
     -webkit-text-fill-color: rgb(175, 158, 136);
@@ -8,4 +12,25 @@ header h1 {
     text-align: center;
     padding: 20px;
 }
-
+.nav-list li {
+    display: inline-block;
+  }
+  
+  .nav {
+    border-radius: 200px;
+    width: 25%;
+    text-align: left;
+    margin-left: 100px;
+    display: flex;
+    gap: 50px;
+    color: rgb(85, 82, 79);
+    font-family: "Broadway", sans-serif;
+    font-size: 20px;
+  }
+  
+  .navbar {
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: "Broadway", sans-serif;
+    color: rgb(85, 82, 79);
+  }
