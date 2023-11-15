@@ -47,7 +47,6 @@ header h1 {
     width: fit-content;
     padding: 10px 8px;
     margin: 7px;
-    display: inline-block;
     font-family: "Bauhaus 93", sans-serif;
     font-size: 20px;
     background-color: black;
@@ -55,8 +54,8 @@ header h1 {
     text-align: center;
   }
  .login {
-    color: rgb(184, 184, 158);
-    font-size: 45px;
     align-items: center;
     text-align: center;
+    color: rgb(184, 184, 158);
+    font-size: 45px;
  }
