@@ -1,0 +1,22 @@
+header h1 {
+    background-color: rgb(143, 110, 110);
+    font-size: 40px;
+}
+h2 {
+    text-align: left;
+}
+body {
+background-color: rgb(97, 87, 69);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Times New Roman", sans-serif;
+    margin-bottom: 20px;
+  }
+
+main {
+text-align: center;
+font-size: 40px;
+  }
