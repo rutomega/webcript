@@ -1,0 +1,40 @@
+header h1 {
+    -webkit-text-fill-color: rgb(175, 158, 136);
+    box-sizing: content-box;
+    text-align: center;
+    padding: 20px;
+    font-family: "Snap ITC", sans-serif;
+    font-size: 50px;
+  }
+
+  .nav-list li {
+    display: inline-block;
+  }
+
+  .nav {
+    border-radius: 200px;
+    width: 25%;
+    text-align: left;
+    margin-left: 100px;
+    display: flex;
+    gap: 50px;
+    color: rgb(85, 82, 79);
+    font-family: "Broadway", sans-serif;
+    font-size: 20px;
+  }
+
+  .navbar {
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: "Broadway", sans-serif;
+    color: rgb(85, 82, 79);
+  }
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("bg.jpg");
+  }

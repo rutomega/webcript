@@ -2,6 +2,29 @@ header h1 {
     background-color: rgb(143, 110, 110);
     font-size: 40px;
 }
+
+.nav-list li {
+  display: inline-block;
+}
+
+.nav {
+  border-radius: 200px;
+  width: 25%;
+  text-align: left;
+  margin-left: 100px;
+  display: flex;
+  gap: 50px;
+  color: rgb(63, 32, 1);
+  font-family: "Broadway", sans-serif;
+  font-size: 20px;
+}
+
+.navbar {
+  margin-left: 70px;
+  font-size: 20px;
+  font-family: "Broadway", sans-serif;
+  color: rgb(70, 36, 3);
+}
 h2 {
     text-align: left;
 }
