@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <header>
-    <h1>WELCOME TO</h1>
     <h1>MORSE LETTER AND NUMBER GUESSING GAME</h1>
   </header>
   <header class="nav-list">
@@ -23,6 +22,12 @@
       <li><a class="nav" href="index.html">Home</a></li>
     </ul>
   </header>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
   <style>
     #container {
       background-color: #755b5b;
@@ -34,7 +39,7 @@
 
     h1 {
       margin-bottom: 20px;
-      color: #333;
+      color: #110a0a;
     }
 
     #question {
@@ -69,13 +74,13 @@
     }
 
     .correct {
-      color: green;
-      animation: fadeOut 2s ease-in-out;
+      color: rgb(21, 85, 21);
+      animation: fadeOut 3s ease-in-out;
     }
 
     .incorrect {
-      color: red;
-      animation: fadeOut 2s ease-in-out;
+      color: rgb(65, 3, 3);
+      animation: fadeOut 3s ease-in-out;
     }
 
     @keyframes fadeOut {
@@ -90,12 +95,12 @@
   </style>
   <body>
     <div id="container">
-      <h1>Tebak Kata Morse</h1>
+      <h1>Guess the Morse Word</h1>
       <p id="question"></p>
-      <input type="text" id="answerInput" placeholder="Jawaban..." />
+      <input type="text" id="answerInput" placeholder="Answer..." />
       <br />
-      <button onclick="checkAnswer()">Periksa</button>
-      <p>Skor: <span id="score">0</span></p>
+      <button onclick="checkAnswer()">Check</button>
+      <p>Score: <span id="score">0</span></p>
       <p class="response" id="response"></p>
     </div>
 
@@ -113,7 +118,7 @@
         const currentWord = words[currentWordIndex].word;
         document.getElementById(
           "question"
-        ).textContent = `Tebak kata dalam Morse: ${words[currentWordIndex].morse}`;
+        ).textContent = `Let's Guess: ${words[currentWordIndex].morse}`;
       }
 
       function checkAnswer() {
@@ -126,11 +131,11 @@
         if (userAnswer === correctAnswer) {
           score++;
           document.getElementById("score").textContent = score;
-          responseElement.textContent = "Jawaban benar!";
+          responseElement.textContent = "Your answer is correct, keep going!";
           responseElement.classList.remove("incorrect");
           responseElement.classList.add("correct");
         } else {
-          responseElement.textContent = "Jawaban salah. Coba lagi!";
+          responseElement.textContent = "Your answer is wrong, try again!";
           responseElement.classList.remove("correct");
           responseElement.classList.add("incorrect");
         }
